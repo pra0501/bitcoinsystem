@@ -1,0 +1,20 @@
+{
+  "top_coins" : "Toppmynt",
+  "coins" : "Mynt",
+  "portfolio" : "Portfölj",
+  "trends" : "Trender",
+  "home" : "Hem",
+  "search" : "Sök",
+  "gainer_loser" : "Gainer & Losers",
+  "total_portfolio" : "Total portfölj",
+  "no_coins_added" : "Inga mynt tillagda",
+  "select_language" : "Välj språk",
+  "cancel" : "Avbryt",
+  "add_coins" : "Lägg till mynt",
+  "enter_coins" : "Ange antal mynt",
+  "invalid_coins" : "Minst 1 mynt ska läggas till",
+  "remove" : "Ta bort",
+  "remove_coins" : "Ta bort mynt",
+  "update_coins" : "Uppdatera mynt",
+  "do_you": "Vill du ta bort mynt från portföljen. Permanent?"
+}

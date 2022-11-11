@@ -1,0 +1,20 @@
+{
+  "top_coins" : "Meilleures pièces",
+  "coins" : "Pièces de monnaie",
+  "portfolio" : "Portefeuille",
+  "trends" : "Les tendances",
+  "home" : "Maison",
+  "search" : "Chercher",
+  "gainer_loser" : "Gagnant & Perdant",
+  "total_portfolio" : "Portefeuille total",
+  "no_coins_added" : "Aucune pièce ajoutée",
+  "select_language" : "Choisir la langue",
+  "cancel" : "Annuler",
+  "add_coins" : "Ajouter des pièces",
+  "enter_coins" : "Entrez le nombre de pièces",
+  "invalid_coins" : "Au moins 1 pièce doit être ajoutée",
+  "remove" : "Retirer",
+  "remove_coins" : "Supprimer les pièces",
+  "update_coins" : "Mettre à jour les pièces",
+  "do_you": "Voulez-vous supprimer la pièce du portefeuille. En permanence ?"
+}

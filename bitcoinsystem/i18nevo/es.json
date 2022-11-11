@@ -1,0 +1,20 @@
+{
+  "top_coins" : "Monedas principales",
+  "coins" : "monedas",
+  "portfolio" : "portafolio",
+  "trends" : "Tendencias",
+  "home" : "Hogar",
+  "search" : "Búsqueda",
+  "gainer_loser" : "Ganador y perdedores",
+  "total_portfolio" : "Cartera Total",
+  "no_coins_added" : "No se agregaron monedas",
+  "select_language" : "Seleccione el idioma",
+  "cancel" : "Cancelar",
+  "add_coins" : "Añadir monedas",
+  "enter_coins" : "Ingrese el número de monedas",
+  "invalid_coins" : "Se debe agregar al menos 1 moneda",
+  "remove" : "Remover",
+  "remove_coins" : "Quitar monedas",
+  "update_coins" : "Actualizar monedas",
+  "do_you": "¿Desea eliminar la moneda de la cartera? Permanentemente ?"
+}

@@ -1,0 +1,20 @@
+{
+  "top_coins" : "Topmunten",
+  "coins" : "munten",
+  "portfolio" : "Portefeuille",
+  "trends" : "Trends",
+  "home" : "Huis",
+  "search" : "Zoeken",
+  "gainer_loser" : "Winnaars en verliezers",
+  "total_portfolio" : "Totale portefeuille",
+  "no_coins_added" : "Geen munten toegevoegd",
+  "select_language" : "Selecteer taal",
+  "cancel" : "Annuleren",
+  "add_coins" : "Voeg munten toe",
+  "enter_coins" : "Voer het aantal munten in",
+  "invalid_coins" : "Er moet minimaal 1 munt worden toegevoegd",
+  "remove" : "Verwijderen",
+  "remove_coins" : "Munten verwijderen",
+  "update_coins" : "Munten bijwerken",
+  "do_you": "Wilt u munt uit portefeuille verwijderen. Permanent?"
+}

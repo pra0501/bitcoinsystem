@@ -1,0 +1,20 @@
+{
+  "top_coins" : "Top-Münzen",
+  "coins" : "Münzen",
+  "portfolio" : "Portfolio",
+  "trends" : "Tendenzen",
+  "home" : "Heim",
+  "search" : "Suche",
+  "gainer_loser" : "Gewinner & Verlierer",
+  "total_portfolio" : "Gesamtportfolio",
+  "no_coins_added" : "Keine Münzen hinzugefügt",
+  "select_language" : "Sprache auswählen",
+  "cancel" : "Absagen",
+  "add_coins" : "Füge Münzen hinzu",
+  "enter_coins" : "Geben Sie die Anzahl der Münzen ein",
+  "invalid_coins" : "Mindestens 1 Münze sollte hinzugefügt werden",
+  "remove" : "Entfernen",
+  "remove_coins" : "Münzen entfernen",
+  "update_coins" : "Münzen aktualisieren",
+  "do_you": "Möchten Sie Coins aus dem Portfolio entfernen? Dauerhaft?"
+}

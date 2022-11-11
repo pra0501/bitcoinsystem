@@ -1,0 +1,21 @@
+{
+  "top_coins" : "Top Coins",
+  "coins" : "Coins",
+  "portfolio" : "Portfolio",
+  "trends" : "Trends",
+  "home" : "Home",
+  "search" : "Search",
+  "gainer_loser" : "Gainer & Losers",
+  "total_portfolio" : "Total Portfolio",
+  "no_coins_added" : "No Coins Added",
+
+  "select_language" : "Select Language",
+  "cancel" : "Cancel",
+  "add_coins" : "Add Coins",
+  "enter_coins" : "Enter Number of Coins",
+  "invalid_coins" : "At least 1 coin should be added",
+  "remove" : "Remove",
+  "remove_coins" : "Remove Coins",
+  "update_coins" : "Update Coins",
+  "do_you": "Do you want to remove coin from portfolio. Permanently ?"
+}

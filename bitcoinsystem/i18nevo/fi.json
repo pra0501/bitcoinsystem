@@ -1,0 +1,20 @@
+{
+  "top_coins" : "Huippukolikot",
+  "coins" : "Kolikot",
+  "portfolio" : "Portfolio",
+  "trends" : "Trendit",
+  "home" : "Koti",
+  "search" : "Hae",
+  "gainer_loser" : "Gainer & Losers",
+  "total_portfolio" : "Koko salkku",
+  "no_coins_added" : "Ei kolikoita lisätty",
+  "select_language" : "Valitse kieli",
+  "cancel" : "Peruuttaa",
+  "add_coins" : "Lisää kolikoita",
+  "enter_coins" : "Syötä kolikoiden määrä",
+  "invalid_coins" : "Vähintään 1 kolikko tulee lisätä",
+  "remove" : "Poista",
+  "remove_coins" : "Poista kolikot",
+  "update_coins" : "Päivitä kolikot",
+  "do_you": "Haluatko poistaa kolikon salkusta. Pysyvästi?"
+}

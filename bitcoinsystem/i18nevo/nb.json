@@ -1,0 +1,20 @@
+{
+  "top_coins" : "Topp mynter",
+  "coins" : "Mynter",
+  "portfolio" : "Portefølje",
+  "trends" : "Trender",
+  "home" : "Hjem",
+  "search" : "Søk",
+  "gainer_loser" : "Vinnere og tapere",
+  "total_portfolio" : "Total portefølje",
+  "no_coins_added" : "Ingen mynter lagt til",
+  "select_language" : "Velg språk",
+  "cancel" : "Avbryt",
+  "add_coins" : "Legg til mynter",
+  "enter_coins" : "Skriv inn antall mynter",
+  "invalid_coins" : "Minst 1 mynt bør legges til",
+  "remove" : "Fjerne",
+  "remove_coins" : "Fjern mynter",
+  "update_coins" : "Oppdater mynter",
+  "do_you": "Ønsker du å fjerne mynt fra porteføljen. Permanent?"
+}

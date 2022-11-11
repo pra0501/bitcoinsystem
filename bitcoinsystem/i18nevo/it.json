@@ -1,0 +1,20 @@
+{
+  "top_coins" : "Le migliori monete",
+  "coins" : "Monete",
+  "portfolio" : "Portafoglio",
+  "trends" : "Tendenze",
+  "home" : "Casa",
+  "search" : "Ricerca",
+  "gainer_loser" : "Vincitori e perdenti",
+  "total_portfolio" : "Portafoglio totale",
+  "no_coins_added" : "Nessuna moneta aggiunta",
+  "select_language" : "Seleziona la lingua",
+  "cancel" : "Annulla",
+  "add_coins" : "Aggiungi monete",
+  "enter_coins" : "Inserisci il numero di monete",
+  "invalid_coins" : "È necessario aggiungere almeno 1 moneta",
+  "remove" : "Rimuovere",
+  "remove_coins" : "Rimuovi le monete",
+  "update_coins" : "Aggiorna monete",
+  "do_you": "Vuoi rimuovere la moneta dal portafoglio. Permanentemente ?"
+}
