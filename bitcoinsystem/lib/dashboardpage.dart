@@ -174,7 +174,7 @@ class _DashboardPageState extends State<DashboardPage> {
                                 textAlign: TextAlign.start,
                               ),
                               const SizedBox(
-                                width: 80,
+                                width: 90,
                               ),
                               IconButton(
                                 icon: Icon(
@@ -381,51 +381,70 @@ class _DashboardPageState extends State<DashboardPage> {
                                 style: TextStyle(color: Colors.black,fontSize: 40,fontWeight: FontWeight.bold)),
                           ),
                         ),
-                        Container(
-                            height: MediaQuery.of(context).size.height/4,
-                            width: MediaQuery.of(context).size.width/.7,
-                            child: topCoinList.length <= 0
-                                ? const Center(child: CircularProgressIndicator())
-                                : ListView.builder(
-                                scrollDirection: Axis.horizontal,
-                                itemCount: topCoinList.length,
-                                itemBuilder: (BuildContext context, int i) {
-                                  return InkWell(
-                                    child: Card(
-                                      elevation: 1,
-                                      shape: RoundedRectangleBorder(
-                                        borderRadius: BorderRadius.circular(25),
-                                      ),
-                                      child: Container(
-                                        height: 100,
-                                        decoration: BoxDecoration(
-                                            image: DecorationImage(
-                                                fit: BoxFit.fill,
-                                                image: const AssetImage('assets/image/Bitmap.png')
-                                            )
+                        Padding(
+                          padding: const EdgeInsets.all(10),
+                          child: Container(
+                              height: MediaQuery.of(context).size.height/2,
+                              width: MediaQuery.of(context).size.width/.7,
+                              child: bitcoinList.length <= 0
+
+                                  ? const Center(child: CircularProgressIndicator())
+                                  : ListView.builder(
+                                  scrollDirection: Axis.vertical,
+                                  itemCount: bitcoinList.length,
+                                  itemBuilder: (BuildContext context, int i) {
+                                    return InkWell(
+
+                                      child: Card(
+                                        elevation: 1,
+                                        shape: RoundedRectangleBorder(
+                                          borderRadius: BorderRadius.circular(20),
                                         ),
-                                        padding: const EdgeInsets.all(10),
-                                        child:Column(
-                                          crossAxisAlignment:
-                                          CrossAxisAlignment.start,
-                                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                                          children: <Widget>[
-                                            Row(
+                                        child: Container(
+                                          height:200,
+                                          decoration: BoxDecoration(image: DecorationImage(image: AssetImage("assets/image/Bitmap.png"),fit: BoxFit.fill)),
+                                          padding: const EdgeInsets.all(10),
+                                          child:Column(
+                                            crossAxisAlignment: CrossAxisAlignment.start,
+                                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                            children: <Widget>[
+                                              Row(
+                                                crossAxisAlignment: CrossAxisAlignment.start,
+                                                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                                 children: [
-                                                  Padding(
-                                                    padding:
-                                                    const EdgeInsets.only(left:5.0),
-                                                    child: FadeInImage(
-                                                      width: 70,
-                                                      height: 70,
-                                                      placeholder: const AssetImage('assets/image/cob.png'),
-                                                      // image: NetworkImage("$URL/Bitcoin/resources/icons/${topCoinList[i].name!.toLowerCase()}.png"),
-                                                      image: NetworkImage("http://45.34.15.25:8080/Bitcoin/resources/icons/${topCoinList[i].name!.toLowerCase()}.png"),
-                                                    ),
+                                                  Row(
+                                                      children: [
+                                                        Padding(
+                                                          padding: const EdgeInsets.only(left:5.0),
+                                                          child: FadeInImage(
+                                                            width: 50,
+                                                            height: 50,
+                                                            placeholder: const AssetImage('images/cob.png'),
+                                                            image: NetworkImage("http://45.34.15.25:8080/Bitcoin/resources/icons/${bitcoinList[i].name!.toLowerCase()}.png"),
+                                                          ),
+                                                        ),
+                                                        Padding(
+                                                            padding: const EdgeInsets.only(left:10.0),
+                                                            child:Text('${bitcoinList[i].name}',
+                                                              style: const TextStyle(fontSize: 20,fontWeight:FontWeight.bold,color:Colors.black),
+                                                              textAlign: TextAlign.left,
+                                                            )
+                                                        ),
+                                                      ]
                                                   ),
-                                                  const SizedBox(
-                                                    width: 30,
-                                                  ),
+
+                                                ],
+                                              ),
+                                              Padding(
+                                                padding: const EdgeInsets.only(left:65),
+                                                child: Text('\$ ${double.parse(bitcoinList[i].rate!.toStringAsFixed(2))}',
+                                                  style: const TextStyle(fontSize: 25,color:Colors.black),textAlign: TextAlign.right,
+                                                ),
+                                              ),
+                                              Row(
+                                                crossAxisAlignment: CrossAxisAlignment.center,
+                                                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                                children: [
                                                   Column(
                                                     crossAxisAlignment: CrossAxisAlignment.center,
                                                     mainAxisAlignment: MainAxisAlignment.center,
@@ -435,7 +454,7 @@ class _DashboardPageState extends State<DashboardPage> {
                                                           width:MediaQuery.of(context).size.width/1.7,
                                                           height: 80,
                                                           child: charts.LineChart(
-                                                            _createSampleData(gainerLooserCoinList[i].perRate, double.parse(gainerLooserCoinList[i].perRate!)),
+                                                            _createSampleData(bitcoinList[i].historyRate, double.parse(bitcoinList[i].diffRate!)),
                                                             layoutConfig: charts.LayoutConfig(
                                                                 leftMarginSpec: charts.MarginSpec.fixedPixel(5),
                                                                 topMarginSpec: charts.MarginSpec.fixedPixel(10),
@@ -450,33 +469,35 @@ class _DashboardPageState extends State<DashboardPage> {
                                                       ),
                                                     ],
                                                   ),
-                                                ]),
-                                            Column(
-                                              children: [
-                                                Align(
-                                                  alignment: Alignment.topLeft,
-                                                  child: Text('${topCoinList[i].name}',
-                                                    style: const TextStyle(fontSize: 20,fontWeight:FontWeight.bold,color:Colors.white),
-                                                    textAlign: TextAlign.left,
+                                                  Row(
+                                                      crossAxisAlignment:CrossAxisAlignment.end,
+                                                      mainAxisAlignment:MainAxisAlignment.end,
+                                                      children:[
+                                                        double.parse(bitcoinList[i].diffRate!) < 0
+                                                            ? const Icon(Icons.arrow_downward, color: Colors.red, size: 20,)
+                                                            : const Icon(Icons.arrow_upward, color: Colors.green, size: 20,),
+                                                        const SizedBox(
+                                                          width: 2,
+                                                        ),
+                                                        Text(double.parse(bitcoinList[i].diffRate!) < 0
+                                                            ? "${double.parse(bitcoinList[i].diffRate!.replaceAll('-', "")).toStringAsFixed(2)} %"
+                                                            : "${double.parse(bitcoinList[i].diffRate!).toStringAsFixed(2)} %",
+                                                            style: TextStyle(fontSize: 18,
+                                                                color: double.parse(bitcoinList[i].diffRate!) < 0
+                                                                    ? Colors.red
+                                                                    : Colors.green)
+                                                        ),
+                                                      ]
                                                   ),
-                                                ),
-                                                const SizedBox(
-                                                    width:10
-                                                ),
-                                                Text('\$${double.parse(topCoinList[i].rate!.toStringAsFixed(2))}',
-                                                    style: const TextStyle(fontSize: 20,fontWeight:FontWeight.bold,color:Colors.white)
-                                                ),
-                                              ],
-                                            ),
-                                          ],
+                                                ],
+                                              ),
+                                            ],
+                                          ),
                                         ),
                                       ),
-                                    ),
-                                    onTap: () {
-                                      // callCurrencyDetails(topCoinList[i].name);
-                                    },
-                                  );
-                                })
+                                    );
+                                  })
+                          ),
                         ),
                       ],
                     ),
@@ -851,7 +872,7 @@ class _DashboardPageState extends State<DashboardPage> {
                           options: CarouselOptions(
 
                             pauseAutoPlayOnManualNavigate: true,
-                            height: 440.0,
+                            height: 550.0,
                             enlargeCenterPage: true,
                             autoPlay: true,
                             aspectRatio: 16 / 9,
