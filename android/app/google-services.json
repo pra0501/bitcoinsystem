@@ -1,0 +1,186 @@
+{
+  "project_info": {
+    "project_number": "1076551032925",
+    "project_id": "shrisatya-441b9",
+    "storage_bucket": "shrisatya-441b9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1076551032925:android:dacf68fc5ef6d9451a6db4",
+        "android_client_info": {
+          "package_name": "com.infa.bitcoinproapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1076551032925-es6uvh2mr4j3ov4r0ok4sihfg7r0a1v1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.infa.bitcoinproapp",
+            "certificate_hash": "1e7370aed34cd0947c7ea9710635ae910e87eed7"
+          }
+        },
+        {
+          "client_id": "1076551032925-rl7st1t8kgd5eskb5776oqlqel0d846e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjQZrJEHAw0xkeP2dXGX9y34jdfDR8REk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1076551032925-rl7st1t8kgd5eskb5776oqlqel0d846e.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1076551032925-6oejp2gcaih3u33uo0ifeeslqb68iebu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.shs.bitcoinprimeapp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1076551032925:android:aed298e1521712551a6db4",
+        "android_client_info": {
+          "package_name": "com.infa.bitcoinprofitapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1076551032925-s3qkrrfrh0db9l8avankhvabl0m21gjb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.infa.bitcoinprofitapp",
+            "certificate_hash": "48039870f841ac3e29bee980422b413ec6c0ba08"
+          }
+        },
+        {
+          "client_id": "1076551032925-rl7st1t8kgd5eskb5776oqlqel0d846e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjQZrJEHAw0xkeP2dXGX9y34jdfDR8REk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1076551032925-rl7st1t8kgd5eskb5776oqlqel0d846e.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1076551032925-6oejp2gcaih3u33uo0ifeeslqb68iebu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.shs.bitcoinprimeapp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1076551032925:android:2f7940b8cede8a221a6db4",
+        "android_client_info": {
+          "package_name": "com.infa.britishbitcoinprofitapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1076551032925-a6as9k0oajjghpmon2i9igh2lqjm8h3n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.infa.britishbitcoinprofitapp",
+            "certificate_hash": "1e7370aed34cd0947c7ea9710635ae910e87eed7"
+          }
+        },
+        {
+          "client_id": "1076551032925-rl7st1t8kgd5eskb5776oqlqel0d846e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjQZrJEHAw0xkeP2dXGX9y34jdfDR8REk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1076551032925-rl7st1t8kgd5eskb5776oqlqel0d846e.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1076551032925-6oejp2gcaih3u33uo0ifeeslqb68iebu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.shs.bitcoinprimeapp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1076551032925:android:0b4dee86cb4d0a021a6db4",
+        "android_client_info": {
+          "package_name": "com.shs.bitcoinprimeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1076551032925-9rp50bilmniqllvfg2ira3k1r2ml204d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shs.bitcoinprimeapp",
+            "certificate_hash": "48039870f841ac3e29bee980422b413ec6c0ba08"
+          }
+        },
+        {
+          "client_id": "1076551032925-rl7st1t8kgd5eskb5776oqlqel0d846e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjQZrJEHAw0xkeP2dXGX9y34jdfDR8REk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1076551032925-rl7st1t8kgd5eskb5776oqlqel0d846e.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1076551032925-6oejp2gcaih3u33uo0ifeeslqb68iebu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.shs.bitcoinprimeapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
